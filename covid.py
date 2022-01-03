@@ -63,7 +63,7 @@ def update_graph(option_slctd):
         hover_name="location",
         color_continuous_scale=px.colors.sequential.YlOrRd,
         labels={'Total Deaths': '% of people'},
-        title='Life Expectancy by Year',
+        title='Deaths of COVID-19',
         template='plotly_dark'
     )
     return container, fig
